@@ -1,0 +1,64 @@
+< corpo >
+    < cabeçalho > ALURAFLIX </ cabeçalho >
+
+    < seção >
+    < seção class =" chamada " > 
+        < div  class =" chamada-texto " >
+            < h1 > ATRAVÉS DO ARANHAVERSO </ h1 >
+            < p > #homem-aranha </ p >
+@@ -27,6 +27,27 @@ <h1>ATRAVÉS DO ARANHAVERSO</h1>
+        </div>
+    </ seção >
+
+    < seção  classe =" categoria " >
+        < h2 > Filmes e séries </ h2 >
+        < div  class =" categoria-videos " >
+            < a  href =" https://www.youtube.com/watch?v=cs15QqG6Gjc " >
+                < img  src =" https://img.youtube.com/vi/cs15QqG6Gjc/maxresdefault.jpg " />
+            </ a >
+            < a  href =" https://www.youtube.com/watch?v=nCmIwcycUJ8 " >
+                < img  src =" https://img.youtube.com/vi/nCmIwcycUJ8/maxresdefault.jpg " />
+            </ a >
+            < a  href =" https://www.youtube.com/watch?v=FvRmEapoHRc " >
+                < img  src =" https://img.youtube.com/vi/FvRmEapoHRc/maxresdefault.jpg " />
+            </ a >
+            < a  href =" https://www.youtube.com/watch?v=Ipkw_hWW-Hw " >
+                < img  src =" https://img.youtube.com/vi/Ipkw_hWW-Hw/maxresdefault.jpg " />
+            </ a >
+            < a  href =" https://www.youtube.com/watch?v=d4DzMNGoyis " >
+                < img  src =" https://img.youtube.com/vi/d4DzMNGoyis/maxresdefault.jpg " />
+            </ a >
+        </div>
+    </ seção >
+
+</ corpo >
+
+
+cor :  rgb ( 42 ,  122 ,  228 );
+}
+
+seção {
+. chamada {
+    fundo :  rgb ( 184 ,  156 ,  213 );
+    preenchimento inferior :  80 px ;
+    preenchimento-superior :  80 px ;
+@@ -30,4 +30,19 @@ h1 {
+
+p {
+    tamanho da fonte :  20 px ;
+}
+
+imagem {
+    altura :  200 px ;
+}
+
+. categoria-vídeos {
+    exibição : flexível;
+    estouro-x : automático;
+    lacuna :  10 px ;
+}
+
+. categoria {
+    preenchimento-esquerdo :  20 px ;
+    preenchimento-direito :  20 px ;
+}
